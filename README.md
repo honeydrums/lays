@@ -1,3 +1,5 @@
 # lays
-internship project at snp
-and drink responsibly
+internship project at snp.
+drink responsibly.
+---
+stay tuned.
