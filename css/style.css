@@ -49,7 +49,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 10.75rem 1fr;
   grid-template-rows: 1fr 60px;
   grid-template-areas:
   "main-header container"
@@ -277,10 +277,12 @@ body {
 		background-color: rgba(240, 237, 237, 1);
 		text-transform: uppercase;
 		font-size: 12px;
+		font-family: 'Gotham Pro';
 		letter-spacing: 0.2px;
 		text-shadow: 1px 2px 2px rgba(255, 255, 255, 1);
 		color: rgba(142, 141, 141, 1);
 	}
+	/* Кнопка бургер */
 
 	.toggle-button {
 		position: relative;
@@ -360,6 +362,7 @@ body {
     background-position: center center;
     -webkit-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     padding-top: 45.9%;
 }
