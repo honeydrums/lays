@@ -238,7 +238,6 @@ body {
 		position: absolute;
 		top: 80px;
 		width: 100%;
-		background-color: rgba(246, 246, 246, 1);
 	}
 
 	.main-nav-list__mobile li {
@@ -254,18 +253,21 @@ body {
 		background-position-x: 29px;
 		background-position-y: 18px;
 		background-size: 40px;
+		background-color: rgba(246, 246, 246, 1);
 	}
 
 	.main-nav-list li:nth-child(2) {
 		background-position-x: 28px;
 		background-position-y: 10px;
 		background-size: 40px;
+		background-color: rgba(246, 246, 246, 1);
 	}
 
 	.main-nav-list li:nth-child(3) {
 		background-position-x: 29px;
 		background-position-y: 18px;
 		background-size: 40px;
+		background-color: rgba(246, 246, 246, 1);
 	}
 
 	.close-menu {
@@ -322,36 +324,7 @@ body {
 		transform: translate(-50%, -50%) rotate(-45deg);
 		box-shadow: none;
 	}
-
-/*
-	.toggle-button::after,
-	.toggle-button::before {
-		content: "";
-		display: block;
-		background-color: red;
-		width: 37px;
-		height: 2px;
-	}
-
-	.toggle-button::after {
-		margin: -35px 0;
-	}
-
-	.toggle-button::before {
-		margin: 10px 0;
-	}
-
-	.toggle-button__close::after {
-		transform: rotate(45deg);
-		transition: all 0.3 ease;
-	}
-
-	.toggle-button__close::before {
-		transform: rotate(-45deg);
-		transition: all 0.3 ease;
-		}*/
-
-	}
+}
 	/* Первый блок */
 
 	.welcome {
