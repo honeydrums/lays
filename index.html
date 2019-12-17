@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="stylesheet" href="css/style.min.css"> -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="fonts/GothamPro/stylesheet.css">
 	<link rel="stylesheet" href="css/wowanimate.css">
@@ -21,18 +21,8 @@
 							<p class="main-logo-text hashtag">#letolays</p>
 						</a>
 					</div>
-					<div class="toggle-button">
-						<input type="checkbox" id="checkbox" class="checkbox visually-hidden">
-						<label for="checkbox">
-							<div class="hamburger">
-								<span class="bar bar1"></span>
-								<span class="bar bar2"></span>
-								<span class="bar bar3"></span>
-								<span class="bar bar4"></span>
-							</div>
-						</label>
-					</div>
-					<ul class="main-nav-list main-nav-list__mobile">
+					<button class="burger"></button>
+					<ul class="main-nav-list">
 						<li>
 							<a href="#" class="gallery-link">Галерея</a>
 						</li>
@@ -42,8 +32,8 @@
 						<li>
 							<a href="#" class="summer-link">Лето с Lay's</a>
 						</li>
+						<button type="button" class="close-menu">Свернуть меню</button>
 					</ul>
-					<button type="button" class="toggle">Свернуть меню</button>
 				</nav>
 			</header>
 		</div>
@@ -127,7 +117,8 @@
 			</footer>
 		</div>
 	</div>
-	<script src="js/wow.min.js"> </script>
+	<script src="js/script.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script>new WOW().init();</script>
 </body>
 </html>
