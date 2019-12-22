@@ -15,16 +15,13 @@ close.addEventListener("click", function () {
 	toggle.classList.toggle("burger--close");
 });
 
-// window.addEventListener('scroll', function() {
-  
-// });
-
-window.addEventListener("wheel", function (evt) {
-    if (event.deltaY > 0) {
-        fixed.classList.remove("main-nav__fixed");
-        fixed.classList.remove("in-down");
-    } else {
-        fixed.classList.add("main-nav__fixed");
-        fixed.classList.add("in-down");
-    }
+window.addEventListener("scroll", function(evt) {
+  if (this.oldScroll > this.scrollY) {
+    fixed.classList.add("main-nav__fixed");
+    fixed.classList.add("in-down");
+  } else {
+    fixed.classList.remove("main-nav__fixed");
+    fixed.classList.remove("in-down");
+  }
+  this.oldScroll = this.scrollY;
 }, false);
