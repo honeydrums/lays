@@ -19,7 +19,7 @@ close.addEventListener("click", function () {
   
 // });
 
-window.addEventListener("wheel", function (evt) {
+window.addEventListener("scroll", function (evt) {
     if (event.deltaY > 0) {
         fixed.classList.remove("main-nav__fixed");
         fixed.classList.remove("in-down");
