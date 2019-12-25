@@ -711,7 +711,13 @@ body {
 
 	.third-block {
 		max-height: 920px;
-		height: 45.7vw;
+	}
+
+	@media (min-width: 1280px) {
+		
+		.third-block {
+			height: 45.7vw;
+		}
 	}
 
 	.about {
@@ -723,11 +729,10 @@ body {
 		color: rgba(255, 255, 255, 1);
 		font-family: 'Gotham Pro Bold';
 		font-size: 50px;
-		/*font-size: 1.36rem;*/
 		line-height: 52px;
 		width: 270px;
 		position: relative;
-		top: 23.8%;
+		top: -35vh;
 		left: 48.5%;
 	}
 
@@ -738,20 +743,18 @@ body {
 		line-height: 22px;
 		margin-left: 80px;
 		position: relative;
-		top: -50px;
+		top: -20%;
 		width: 380px;
 	}
 
-	.about p:before{
-		content: "";
+	.about-snacks {
 		display: block;
 		background-image: url('../img/about_snacks.png');
 		background-size: contain;
 		width: 220px;
 		height: 245px;
 		position: relative;
-		top: -10px;
-		left: -15px;
+		left: 12%;
 	}
 
 	.about-button {
@@ -768,6 +771,7 @@ body {
 		text-transform: uppercase;
 		text-decoration: none;
 		position: relative;
+		top: -55px;
 		left: 6rem;
 		-webkit-transition: .5s ease;
 		-moz-transition: .5s ease;
@@ -779,14 +783,12 @@ body {
 		background-color: rgba(143, 12, 0, 0.2);
 	}
 
-	.about::after {
-		content: "";
-		background-image: url('../img/red-arrow.png');
-		width: 43px;
-		height: 90px;
-		position: absolute;
-		top: 55%;
-		left: 55%;
+	.triangle-right {
+		border: 50px solid transparent;
+		border-left: 50px solid rgba(238,17,0,1);
+		position: relative;
+		top: 40%;
+		left: 99.6%;
 	}
 
 	.balloon_wrap {
@@ -925,7 +927,7 @@ body {
 		font-family: 'Gotham Pro Bold';
 		color: rgba(48, 31, 32, 1);
 		position: relative;
-		top: 67.5%;
+		top: 52.5%;
 	}
 
 	.map-button {
@@ -942,7 +944,7 @@ body {
 		text-transform: uppercase;
 		text-decoration: none;
 		position: relative;
-		top: 72.5%;
+		top: 57.5%;
 		-webkit-transition: .5s ease;
 		-moz-transition: .5s ease;
 		-o-transition: .5s ease;
@@ -953,14 +955,12 @@ body {
 		background-color: rgba(143, 12, 0, 0.2);
 	}
 
-	.map::after {
-		content: "";
-		background-image: url('../img/yellow-arrow.png');
-		width: 43px;
-		height: 90px;
-		position: absolute;
-		top: 83%;
-		left: 53%;
+	.triangle-left {
+		border: 50px solid transparent;
+		border-right: 50px solid rgba(253, 203, 0, 1);
+		position: relative;
+		top: 40%;
+		right: 55.5%;
 	}
 
 	@media (max-width: 640px) {
