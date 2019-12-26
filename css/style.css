@@ -99,8 +99,8 @@ body {
 		display: grid;
 		-ms-grid-columns: 100vw;
 		grid-template-columns: 100vw;
-		-ms-grid-rows: 80px 1fr 49px;
-		grid-template-rows: 80px 1fr 49px;
+		-ms-grid-rows: 80px 1fr 42px;
+		grid-template-rows: 80px 1fr 42px;
 			grid-template-areas:
 		"main-header"
 		"container"
@@ -1209,7 +1209,7 @@ body {
 
 	@media (max-width: 640px) {
 		.main-footer {
-			height: 49px;
+			height: 42px;
 		}
 
 		.main-footer p {
