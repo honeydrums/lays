@@ -1,6 +1,6 @@
 var toggle = document.querySelector(".burger");
 var mMenu = document.querySelector(".main-nav-list");
-var fixed = document.querySelector(".main-nav");
+var fixed = document.querySelector(".main-header");
 var close = document.querySelector(".close-menu");
 var toggleClose = document.querySelector(".burger")
 
