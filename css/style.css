@@ -83,7 +83,7 @@ body {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 100vw;
-		grid-template-rows: 22vh 1fr 12vw;
+		grid-template-rows: 80px 1fr 49px;
 		grid-template-areas:
 		"main-header"
 		"container"
