@@ -662,7 +662,7 @@ body {
 
 		.yellow-brick p {
 			font-size: 5.6vw;
-			line-height: 6.5vh;
+			line-height: 1.5;
 			width: 40vw;
 			height: 20vh;
 			top: 10vw;
@@ -717,7 +717,7 @@ body {
 			position: relative;
 			width: 38vw;
 			height: 13.5vw;
-			top: 11.4vw;
+			top: 25.2vw;
 			left: 56vw;
 			padding: 4vw 4vw 5vw 4vw;
 			font-size: 4vw;
