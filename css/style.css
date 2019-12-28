@@ -665,7 +665,7 @@ body {
 			line-height: 1.5;
 			width: 40vw;
 			height: 20vh;
-			top: 10vw;
+			top: 13.3%;
 			left: 13vw;
 		}
 
@@ -717,9 +717,9 @@ body {
 			position: relative;
 			width: 38vw;
 			height: 13.5vw;
-			top: 25.2vw;
+			top: 26%;
 			left: 56vw;
-			padding: 4vw 4vw 5vw 4vw;
+			padding: 5% 6%;
 			font-size: 4vw;
 		}   
 	}
@@ -1010,12 +1010,12 @@ body {
 			display: -ms-flexbox;
 			display: flex;
 			margin: auto;
-			font-size: 4vw;
+			font-size: 3vw;
 			font-family: 'Gotham Pro';
 			letter-spacing: 0;
-			padding: 4vw 5vw 6vw 5vw;
-			width: 37vw;
-			height: 5vw;
+			padding: 3.5% 7.6%;
+			width: 35vw;
+			height: 10vw;
 			top: 30vw;
 			left: 0;
 		}
@@ -1156,9 +1156,9 @@ body {
 		.map-button {
 			font-family: 'Gotham Pro';
 			font-size: 3.5vw;
-			width: 36vw;
-			height: 2vw;
-			padding: 3vw 5vw 5vw 5vw;
+			width: 35vw;
+			height: 11vw;
+			padding: 3.5% 7%;
 			top: 70vw;
 		}
 
