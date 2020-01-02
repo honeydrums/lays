@@ -6,13 +6,13 @@ var toggleClose = document.querySelector(".burger")
 
 toggle.addEventListener("click", function (evt) {
 	mMenu.classList.toggle("main-nav-list__mobile");
-	toggle.classList.toggle("burger--close");
+	toggle.classList.toggle("change");
 	toggleClose.classList.toggle("toggle-button--close");
 });
 
 close.addEventListener("click", function () {
 	mMenu.classList.toggle("main-nav-list__mobile");
-	toggle.classList.toggle("burger--close");
+	toggle.classList.toggle("change");
 });
 
 window.addEventListener("scroll", function(evt) {
@@ -23,7 +23,7 @@ window.addEventListener("scroll", function(evt) {
     fixed.classList.remove("main-nav__fixed");
     fixed.classList.remove("in-down");
     mMenu.classList.remove("main-nav-list__mobile");
-    toggle.classList.remove("burger--close");
+    toggle.classList.remove("change");
   }
   this.oldScroll = this.scrollY;
 }, false);
