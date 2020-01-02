@@ -22,6 +22,8 @@ window.addEventListener("scroll", function(evt) {
   } else {
     fixed.classList.remove("main-nav__fixed");
     fixed.classList.remove("in-down");
+    mMenu.classList.remove("main-nav-list__mobile");
+    toggle.classList.remove("burger--close");
   }
   this.oldScroll = this.scrollY;
 }, false);
