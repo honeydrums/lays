@@ -99,8 +99,8 @@ body {
 		display: grid;
 		-ms-grid-columns: 100vw;
 		grid-template-columns: 100vw;
-		-ms-grid-rows: 80px 1fr 42px;
-		grid-template-rows: 80px 1fr 42px;
+		-ms-grid-rows: 81px 1fr 42px;
+		grid-template-rows: 81px 1fr 42px;
 			grid-template-areas:
 		"main-header"
 		"container"
@@ -175,6 +175,7 @@ body {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
+		height: 100%;
 	}
 
 	.main-logo-wrap {
@@ -208,11 +209,22 @@ body {
 		width: 100%;
 	}
 
-	.main-nav__fixed {
+	.main-header__hidden {
 		position: fixed;
 		width: 100%;
-		height: 80px;
+		height: 81px;
 		background-color: rgba(246, 246, 246, 1);
+		transition: transform 0.2s ease;
+		transform: translateY(-80px);
+	}
+
+	.main-header__fixed {
+		position: fixed;
+		width: 100%;
+		height: 81px;
+		background-color: rgba(246, 246, 246, 1);
+		transition: transform 0.2s ease;
+		transform: translateY(0px);
 	}
 }
 
@@ -287,7 +299,14 @@ body {
 
 @media (max-width: 640px) {
 	.main-nav-list {
-		display: none;
+		display: block;
+		position: absolute;
+		top: 81px;
+		width: 100vw;
+	}
+
+	.main-nav-list li {
+		height: 81px;
 	}
 
 	.main-nav-list__mobile {
@@ -329,9 +348,28 @@ body {
 		background-color: rgba(246, 246, 246, 1);
 	}
 
+	.li-hide__left {
+		opacity: 0;
+		transition: transform 0.4s ease;
+		transform: translate(-50px);
+	}
+
+	.li-hide__right {
+		opacity: 0;
+		transition: transform 0.4s ease;
+		transform: translate(50px);
+	}
+
+	.li-show {
+		opacity: 1;
+		transition: transform 0.4s ease;
+		transform: translate(0);
+	}
+
 	.close-menu {
 		display: block;
 		position: absolute;
+		padding-top: 34px;
 		top: 243px;
 		width: 100%;
 		height: 60px;
@@ -350,6 +388,7 @@ body {
 	.burger {
 		display: block;
 		cursor: pointer;
+		outline: none;
 		position: -webkit-sticky;
 		position: sticky;
 		left: 90vw;
@@ -432,7 +471,7 @@ body {
 	.promo-list li {
 		display: block;
 		width: 7rem;
-		height: 80px;
+		height: 81px;
 		text-align: center;
 		font-family: 'Gotham Pro';
 		font-size: 14px;
@@ -954,7 +993,7 @@ body {
 
 		.about {
 			background-image: url('../img/about_block_mobile.png');
-			background-color: rgba(26, 100, 194, 1);
+			background-color: rgba(20, 103, 193, 1);
 			background-position: center;
 			background-size: contain;
 			width: 100vw;
@@ -1185,6 +1224,7 @@ body {
 	}
 
 	.logo-copyright span {
+		font-size: 13px;
 		margin-left: 1vw;
 	}
 
