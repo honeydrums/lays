@@ -385,9 +385,7 @@ body {
 
 .promo-block-wrap {
 	position: absolute;
-	/*top: 50px;*/
 	top: 4vw;
-	/*left: 45px;*/
 	left: 4vw;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -414,11 +412,9 @@ body {
 	display: block;
 	width: 9vw;
 	height: 6vw;
-	/*padding-top: 65px;*/
 	text-align: center;
 	border-radius: 50%;
 	font-family: 'Gotham Pro';
-	/*font-size: 14px;*/
 	font-size: 1.3vw;
 	font-weight: 400;
 	line-height: 1.2vw;
@@ -429,29 +425,12 @@ body {
 	font-size: 1.2vw;
 }
 
-/*.promo-list li:first-child {
-	width: 7.9rem;
-}*/
-
 .promo-icon {
 	width: 8.5vw;
 	height: 8.5vw;
 	border-radius: 50%;
 	background-color: white;
 }
-
-/*@media (min-width:1450px) {
-	.promo-block-wrap {
-		width: 50rem;
-	}
-	.promo-icon {
-		width: 150px;
-		height: 150px;
-	}
-	.promo-list {
-		top: 100px;
-	}
-}*/
 
 @media (max-width:640px) {
 	.promo-block-wrap {
@@ -482,14 +461,8 @@ body {
 
 .promo-slogan-wrap {
 	position: absolute;
-	/*top: 52%;*/
 	top: 20.5vw;
-	/*left: 4.5%;*/
 	left: 5vw;
-	/*width: 245px;
-	width: 28%;
-	height: 175px;
-	height: 40%;*/
 	width: 21vw;
 	height: 14vw;
 }
@@ -501,7 +474,6 @@ body {
 
 .promo-slogan-wrap p:first-child {
 	font-family: 'Gotham Pro Medium';
-	/*font-size: 5.75rem;*/
 	font-size: 6.5vw;
 	text-transform: uppercase;
 }
@@ -509,14 +481,12 @@ body {
 .promo-slogan-wrap p:nth-child(2),
 .promo-slogan-wrap span {
 	font-family: 'Gotham Pro Light';
-	/*font-size: 3.15rem;*/
 	font-size: 3.7vw;
 	text-transform: uppercase;
 }
 
 .promo-slogan-wrap p:last-child {
 	font-family: 'Gotham Pro Black';
-	/*font-size: 4.6rem;*/
 	font-size: 5vw;
 }
 
@@ -575,7 +545,6 @@ body {
 
 .yellow-brick span {
 	font-family: 'Gotham Pro';
-	/*font-size: 38px;*/
 	font-size: 3.25vw;
 	display: inline-block;
 	margin: 10px -7px;
@@ -590,9 +559,7 @@ body {
 	width: 40%;
 	height: 30%;
 	font-family: 'Gotham Pro Bold';
-	/*font-size: 36px;*/
 	font-size: 2.5vw;
-	/*line-height: 47px;*/
 	line-height: 3.25vw;
 }
 
@@ -649,18 +616,12 @@ body {
 
 .gallery-button {
 	font-family: 'Gotham Pro Light';
-	/*font-size: 22px;*/
 	font-size: 1.8vw;
 	position: relative;
-	/*top: 21rem;*/
 	top: 22vw;
-	/*left: 6rem;*/
 	left: 5.5vw;
-	/*width: 205px;*/
 	width: 17vw;
-	/*height: 60px;*/
 	height: 5vw;
-	/*padding: 20px 40px;*/
 	padding: 1.5vw 3vw;
 	-webkit-transition: 0.5s ease;
 	-o-transition: 0.5s ease;
@@ -823,30 +784,22 @@ body {
 
 .about h2 {
 	font-family: 'Gotham Pro Bold';
-	/*font-size: 50px;*/
 	font-size: 3.5vw;
-	/*line-height: 52px;*/
 	line-height: 3.5vw;
 	position: relative;
 	top: -40%;
 	left: 48.5%;
-	/*width: 270px;*/
 	width: 16vw;
 	color: rgba(255, 255, 255, 1);
 }
 
 .about p {
 	position: relative;
-	/*top: -20%;*/
 	top: -12vw;
-	/*width: 380px;*/
 	width: 27vw;
-	/*margin-left: 80px;*/
 	margin-left: 6vw;
 	font-family: 'Gotham Pro';
-	/*font-size: 18px;*/
 	font-size: 1.25vw;
-	/*line-height: 22px;*/
 	line-height: 1.6vw;
 	color: rgba(255, 255, 255, 1);
 }
@@ -854,12 +807,9 @@ body {
 .about-snacks {
 	position: relative;
 	top: -3rem;
-	/*left: 12%;*/
 	left: 5vw;
 	display: block;
-	/*width: 220px;*/
 	width: 15.3vw;
-	/*height: 245px;*/
 	height: 17vw;
 	background-image: url(../img/about_snacks.png);
 	background-size: contain;
@@ -867,15 +817,12 @@ body {
 
 .about-button {
 	font-family: 'Gotham Pro Light';
-	/*font-size: 21px;*/
 	font-size: 2vw;
 	position: relative;
-	/*top: -55px;*/
 	top: -5.4vw;
 	left: 6rem;
 	width: 205px;
 	height: 65px;
-	/*padding: 20px 40px;*/
 	padding: 2vw 4vw;
 	-webkit-transition: 0.5s ease;
 	-o-transition: 0.5s ease;
@@ -1214,30 +1161,24 @@ body {
 .social-links__item_fb {
 	background-color: rgba(50, 106, 162);
 	background-image: url(../img/social_fb.jpeg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 35px 35px;
 }
 
 .social-links__item_vk {
 	background-color: rgba(52, 121, 168);
 	background-image: url(../img/social_vk.jpeg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 35px 35px;
 }
 
 .social-links__item_web {
 	background-color: rgba(237, 191, 17);
 	background-image: url(../img/social_web.jpeg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 35px 35px;
 }
 
 .social-links__item_yt {
 	background-color: rgba(196, 7, 14);
 	background-image: url(../img/social_yt.jpeg);
+}
+
+.social-links__item_bg-size {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 35px 35px;
