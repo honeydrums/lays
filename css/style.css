@@ -201,18 +201,21 @@ body {
 }
 
 .main-nav__list {
+	list-style: none;
+	text-align: center;
+}
+
+.main-nav__list_position {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	list-style: none;
-	text-align: center;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
+	flex-direction: column;
 }
 
-.main-nav__list a {
+.main-nav__link {
 	font-family: 'Gotham Pro';
 	font-size: 14px;
 	display: block;
@@ -286,7 +289,7 @@ body {
 		height: 81px;
 		border-top: 1px solid rgba(155, 155, 155, 0.18);
 	}
-	.main-nav__list a {
+	.main-nav__link {
 		padding-top: 34px;
 	}
 	.main-nav__list li:first-child {
