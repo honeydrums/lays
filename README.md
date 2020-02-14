@@ -1,5 +1,5 @@
 # lays
 internship project at snp.
 ---
-stay tuned.
+https://honeydrums.github.io/lays/
 ---
